@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">车阁子</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="splash_out_activity">1111</string>
+    <string name="action_settings">Settings</string>
+    <string name="csy_form_tip">目前仅支持小型汽车查询</string>
+    <string name="csy_btn_query">开始查询</string>
+    <string name="csy_cxdz_lab">查询地</string>
+    <string name="csy_cxdz_tip">请选择查询地</string>
+    <string name="csy_chepai_lab">车牌号</string>
+    <string name="csy_chepai_tip">请输入车牌号后6位</string>
+    <string name="csy_chejia_lab">车架号</string>
+    <string name="csy_engine_lab">发动机号</string>
+    <string name="csy_close">关闭</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="pro_list">
+        <item></item>
+    </string-array>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="large_text">
+
+    </string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#FF3089</color>
+    <color name="csy_bg_body">#e9e9e9</color>
+    <color name="csy_row_on">#f0f0f0</color>
+    <color name="csy_border">#d0d0d0</color>
+    <color name="csy_green">#0a64aa</color>
+    <color name="csy_green_on">#303F9F</color>
+    <color name="csy_blue">#0a7dd2</color>
+    <color name="csy_blue_on">#0a64aa</color>
+    <color name="csy_label">#969696</color>
+    <color name="csy_text">#555555</color>
+    <color name="csy_hint">#c6c6c6</color>
+    <color name="green">#0ab111</color>
+    <color name="red">#fd0022</color>
+</resources>

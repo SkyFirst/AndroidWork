@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.cargezi.InfoActivity"
+    tools:showIn="@layout/activity_info">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="381dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:textSize="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="24dp"
+                android:id="@+id/textUser" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改"
+                android:id="@+id/buttonUser"
+                android:layout_alignBottom="@+id/textUser"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textUser2"
+                android:layout_alignBottom="@+id/buttonUser"
+                android:layout_toStartOf="@+id/buttonUser"
+                android:textSize="25dp"
+                android:textIsSelectable="false" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="381dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textSize="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="24dp"
+                android:id="@+id/textPwd" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改"
+                android:id="@+id/buttonPwd"
+                android:layout_alignBottom="@+id/textPwd"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="381dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主题颜色"
+                android:textSize="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="24dp"
+                android:id="@+id/textColor" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改"
+                android:id="@+id/buttonColor"
+                android:layout_alignBottom="@+id/textColor"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textColor2"
+                android:text="蓝"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:layout_alignBottom="@+id/textColor"
+                android:layout_toStartOf="@+id/buttonColor"
+                android:layout_marginEnd="27dp" />
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quitBtn"
+            android:text="退出登录"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
